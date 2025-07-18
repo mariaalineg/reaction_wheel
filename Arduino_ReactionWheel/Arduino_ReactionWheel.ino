@@ -50,7 +50,7 @@ double yawAngle=0, yawAngularSpeed=0;
 // ------GENERAL-----
 long timeCur, timePrev, timeStart; 
 const int numReadings= 5;
-double readings[numReadings];
+double readings[numReadings] = {0};
 int readIndex = 0;
 double total = 0, rollingAvg = 0;
 double targetAttitude = 0;
